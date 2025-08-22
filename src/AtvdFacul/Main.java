@@ -3,7 +3,7 @@ package AtvdFacul;
 public class Main {
     public static void main(String[] args) {
         // Teste Pessoa
-        Pessoa p1 = new Pessoa("Herbert", 25);
+        Pessoa p1 = new Pessoa("Herbert", 18);
         p1.apresentar();
 
         // Teste Aluno
