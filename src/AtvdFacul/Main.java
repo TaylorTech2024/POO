@@ -24,7 +24,7 @@ public class Main {
                 p1.apresentar();
                 break;
             case 2:
-                Aluno a1 = new Aluno("Andressa", 18, "ADS");
+                Aluno a1 = new Aluno("Herbert", 18, "ADS");
                 a1.apresentar();
                 a1.estudar();
                 break;
