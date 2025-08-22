@@ -1,29 +1,23 @@
-<<<<<<< HEAD
-\# 🖥️ Projeto POO
+# 🖥️ Projeto POO
 
+Este repositório contém exercícios da disciplina de **Programação Orientada a Objetos (POO)** em Java.
 
+## 🚀 Exercícios incluídos
 
-Este repositório contém exercícios da disciplina de \*\*Programação Orientada a Objetos (POO)\*\* em Java.
+1. **Pessoa** – classe simples que armazena nome e idade e se apresenta.  
+2. **Aluno** – herda de Pessoa e adiciona curso e método estudar.  
+3. **Calculadora** – métodos para somar, subtrair, multiplicar e dividir números.  
+4. **Números Pares e Ímpares** – lê 10 números e informa quantos são pares e ímpares.  
+5. **Somatório e Média** – lê uma quantidade `q` de números, calcula a soma e a média.  
+6. **Contagem de Vogais** – conta a quantidade de vogais (a, e, i, o, u) em uma palavra ou frase.  
 
+---
 
+## 🎮 Como executar
 
-\## 🚀 Exercícios incluídos
-
-\- Pessoa (classe simples)
-
-\- Aluno (herança)
-
-\- Calculadora (métodos)
-
-\- Números Pares e Ímpares (laços e condições)
-
-\- Main (executa todos os exemplos)
-
-
-
-\### 📂 Estrutura
-
-
+1. Abra o projeto no **VS Code** ou no terminal.  
+2. Execute a classe `Main.java`.  
+3. Você verá um **menu interativo** perguntando qual exercício deseja executar:  
 
 =======
 # POO
