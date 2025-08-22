@@ -30,10 +30,36 @@ public class Main {
                 break;
             case 3:
                 Calculadora calc = new Calculadora();
-                System.out.println("Soma 5 + 3 = " + calc.somar(5, 3));
-                System.out.println("Subtração 10 - 4 = " + calc.subtrair(10, 4));
-                System.out.println("Multiplicação 7 * 2 = " + calc.multiplicar(7, 2));
-                System.out.println("Divisão 20 / 4 = " + calc.dividir(20, 4));
+
+                System.out.println("Escolha a operação:");
+                System.out.println("1 - Somar");
+                System.out.println("2 - Subtrair");
+                System.out.println("3 - Multiplicar");
+                System.out.println("4 - Dividir");
+                System.out.print("Digite a opção: ");
+                int op = sc.nextInt();
+
+                System.out.print("Digite o primeiro número: ");
+                double n1 = sc.nextDouble();
+                System.out.print("Digite o segundo número: ");
+                double n2 = sc.nextDouble();
+
+                switch (op) {
+                    case 1:
+                        System.out.println("Resultado: " + calc.somar((int)n1, (int)n2));
+                        break;
+                    case 2:
+                        System.out.println("Resultado: " + calc.subtrair((int)n1, (int)n2));
+                        break;
+                    case 3:
+                        System.out.println("Resultado: " + calc.multiplicar((int)n1, (int)n2));
+                        break;
+                    case 4:
+                        System.out.println("Resultado: " + calc.dividir(n1, n2));
+                        break;
+                    default:
+                        System.out.println("Operação inválida!");
+                }
                 break;
             case 4:
                 NumerosParesImpares.executar();
