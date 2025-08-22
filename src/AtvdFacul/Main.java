@@ -7,7 +7,7 @@ public class Main {
         p1.apresentar();
 
         // Teste Aluno
-        Aluno a1 = new Aluno("Maria", 20, "ADS");
+        Aluno a1 = new Aluno("Andressa", 18, "Ciências Biológicas");
         a1.apresentar();
         a1.estudar();
 
